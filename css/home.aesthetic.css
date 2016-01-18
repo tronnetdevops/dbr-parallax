@@ -1,0 +1,26 @@
+
+/**
+ ******************************* Home ******************************
+ */
+
+/**
+ * Main
+ */
+
+.home-intro-text{
+	color: #003366;
+}
+
+.home-main-section{
+    background: -webkit-linear-gradient(left, white , whitesmoke, white); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, white, whitesmoke, white); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, white, whitesmoke, white); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, white , whitesmoke, white); /* Standard syntax (must be last) */
+}
+
+/**
+ * Services
+ */
+.home-services-section{
+	background: white;
+}

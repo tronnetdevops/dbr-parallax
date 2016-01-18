@@ -1,0 +1,174 @@
+html{
+	font-family: Aviner;
+}
+
+body{
+	color: #003366;
+}
+
+a{
+	color: white;
+}
+
+p{
+	word-break: break-all;
+}
+
+.top-bar .toggle-topbar.menu-icon a span:after {
+	-webkit-box-shadow: 0 10px 0 1px #666666, 0 16px 0 1px #666666, 0 22px 0 1px #666666;
+	box-shadow: 0px 10px 0px 1px #666666, 0px 16px 0px 1px #666666, 0px 22px 0px 1px #666666;
+}
+
+.top-bar .toggle-topbar.menu-icon a span:before {
+	-webkit-box-shadow: 0 10px 0 1px #666666, 0 16px 0 1px #666666, 0 22px 0 1px #666666;
+	box-shadow: 0px 10px 0px 1px #666666, 0px 16px 0px 1px #666666, 0px 22px 0px 1px #666666;
+}
+
+nav.top-bar,nav.top-bar.expanded{
+	background: rgba(255,255,255,0.9);
+}
+nav.top-bar *, .top-bar.expanded .title-area{
+	background: transparent;
+}
+
+.top-bar-section.mods ul li.nav-menu-button,
+.top-bar-section.mods ul li.nav-menu-button a,
+.top-bar-section.mods ul li.nav-menu-button a:hover,
+.top-bar-section.mods ul li.nav-menu-button a:active{
+	background: transparent;
+	text-transform: uppercase;
+	color: #003366;
+}
+
+ /**
+ ******************************* Footer ******************************
+ */
+
+.footer-container{
+	background: #003366;
+	color: white;
+}
+
+.footer-container .footer-section-header-title{
+	color: white;
+	font-weight: bold;
+}
+
+.footer-container .footer-section-signup-leadin{
+	font-weight: none;
+}
+
+.footer-container .footer-section  ul{
+	list-style-type: none;
+}
+
+#footer-email-sign-up .button{
+	text-transform: uppercase;
+	font-weight:bold;
+}
+
+.footer-section-menu{
+	text-align: center;
+}
+
+/**
+ * Icons
+ */
+
+div.twitter-icon{
+	background-image: url('../img/connect/twitter.png');
+}
+
+div.facebook-icon{
+	background-image: url('../img/connect/facebook.png');
+}
+
+div.linkedin-icon{
+	background-image: url('../img/connect/linkedin.png');
+}
+
+/**
+ * Helpers
+ */
+
+.fixed-top{
+	position: fixed;
+	top: 0px;
+}
+
+.pull-right{
+	float: right;
+}
+
+
+/**
+ * Image Cells
+ */
+
+.image-cell-banner-title{
+	text-transform: uppercase;
+	font-weight: bold;
+	color: white;
+	text-shadow: 0px 0px 15px rgba(0,0,0,0.5);
+}
+
+.image-cell-banner-subtitle{
+	color: white;
+	text-shadow: 0px 0px 15px rgba(0,0,0,0.5);
+}
+
+.image-cell-intro-text{
+	color: #003366;
+}
+
+.image-cell{
+	background-size: cover;
+	background-position: 0 100%;
+	z-index: -1;
+	box-shadow: 0px -5px 20px -5px rgba(0,0,0,0.6) inset, 0px 5px 20px -5px rgba(0,0,0,0.6) inset;
+}
+
+.image-cell.primary{
+	box-shadow: 0px -5px 20px -5px rgba(0,0,0,0.6) inset;
+}
+
+.image-cell.image-waves{
+	background-image: url('../img/waves-bg.jpg');
+}
+.image-cell.image-water{
+	background-image: url('../img/water-bg.jpg');
+}
+.image-cell.image-trees{
+	background-image: url('../img/trees-bg.jpg');
+}
+.image-cell.image-clouds{
+	background-image: url('../img/clouds-bg.jpg');
+}
+
+.image-cell.image-gears{
+	background-image: url('../img/gears-bg.jpg');
+}
+
+.image-cell.image-fish{
+	background-image: url('../img/fish-bg.png');
+}
+
+.image-cell.image-ocean{
+	background-image: url('../img/ocean-bg.png');
+}
+
+.image-cell.image-hills{
+	background-image: url('../img/hills-bg.png');
+}
+
+
+@media (min-width: 600px) {
+
+	p{
+		word-break: normal;
+	}
+
+	.footer-section-menu{
+		text-align: left;
+	}
+}
